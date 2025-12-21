@@ -31,9 +31,10 @@
     --header-bar-color: hsl(0,0%,13%);
 
     /* ACCENT HSL AND TEXT COLOR SETTINGS */
-    --accent-hue: 141;
-    --accent-saturation: 72.9%;
-    --accent-lightness: 42%;
+    /* hsl(300, 25.68%, 70.98%) */
+    --accent-hue: 300;
+    --accent-saturation: 25.68;
+    --accent-lightness: 70.98;
     --accent-text-color: hsl(0,0%,6%);
 
     /* ALERT HSL AND TEXT COLOR SETTINGS*/
