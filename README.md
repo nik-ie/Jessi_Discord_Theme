@@ -1,19 +1,28 @@
-# Spotify Discord Theme - [![Paypal][paypal-logo]][paypal-url] [![GitHub][github-logo]][github-url] [![Discord][discord-logo]][discord-url]
-#### Combine Discord and Spotify into one
+# Jessi Discord Theme
+#### A purple fork of [Spotify Discord](https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Spotify-Discord) by CapnKitten
 <hr>
 
-Current version: v2.0.0 (18/10/2023)
+This fork keeps the original Spotify Discord theme and swaps the green accent for a soft purple:
 
-[BetterDiscord download](https://betterdiscord.app/theme/Spotify%20Discord)
-<br>
-[View add-on themes](https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Spotify-Discord/css/addons)
-<br>
-[View source files](https://github.com/CapnKitten/BetterDiscord/tree/master/Themes/Spotify-Discord)
+```css
+--accent-hue: 300;
+--accent-saturation: 25.68%;
+--accent-lightness: 70.98%;
+/* hsl(300, 25.68%, 70.98%) */
+```
 
-Vencord link
+## Install
+
+#### Vencord / Vesktop
+Open **Settings → Themes → Online Themes** and add this link:
 ```
-https://capnkitten.github.io/BetterDiscord/Themes/Spotify-Discord/css/source.css
+https://git.nik.ie/nik/Jessi_Discord_Theme/raw/branch/master/Spotify-Discord.theme.css
 ```
+
+#### BetterDiscord
+Download [Spotify-Discord.theme.css](https://git.nik.ie/nik/Jessi_Discord_Theme/raw/branch/master/Spotify-Discord.theme.css) and put it in your BetterDiscord themes folder.
+
+The theme file only holds the color settings. It imports the main styles from the original theme, so updates to upstream come through automatically.
 
 <hr>
 
@@ -21,7 +30,7 @@ This theme works best with the plugin called [SpotifyControls](https://github.co
 
 ## Previews
 
-(Previews are subject to be out of date)
+(Previews are from the original theme and show its green accent.)
 
 #### Main chat area
 
@@ -45,11 +54,9 @@ To change the title bar color for specific servers, use the code template below 
 }
 ```
 
-[paypal-logo]: https://img.shields.io/static/v1?label=PayPal&message=Donate&style=flat&logo=paypal&color=blue
-[paypal-url]: https://paypal.me/capnkitten
+## Credits
+All of the theme's design and source styles are by [CapnKitten](https://github.com/CapnKitten). If you like the theme, support the original author:
 
-[github-logo]: https://img.shields.io/static/v1?label=GitHub&message=Sponsor&style=flat&logo=github&color=black
-[github-url]: https://github.com/sponsors/CapnKitten
-
-[discord-logo]: https://img.shields.io/static/v1?label=Discord&message=Server&style=flat&logo=discord&color=blue
-[discord-url]: https://discord.gg/jzJkA6Z
+- [Donate on PayPal](https://paypal.me/capnkitten)
+- [Sponsor on GitHub](https://github.com/sponsors/CapnKitten)
+- [Join the Discord server](https://discord.gg/jzJkA6Z)
