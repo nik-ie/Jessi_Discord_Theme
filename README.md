@@ -16,11 +16,11 @@ This fork keeps the original Spotify Discord theme and swaps the green accent fo
 #### Vencord / Vesktop
 Open **Settings → Themes → Online Themes** and add this link:
 ```
-https://git.nik.ie/nik/Jessi_Discord_Theme/raw/branch/master/Spotify-Discord.theme.css
+https://raw.githubusercontent.com/nik-ie/Jessi_Discord_Theme/master/Spotify-Discord.theme.css
 ```
 
 #### BetterDiscord
-Download [Spotify-Discord.theme.css](https://git.nik.ie/nik/Jessi_Discord_Theme/raw/branch/master/Spotify-Discord.theme.css) and put it in your BetterDiscord themes folder.
+Download [Spotify-Discord.theme.css](https://raw.githubusercontent.com/nik-ie/Jessi_Discord_Theme/master/Spotify-Discord.theme.css) and put it in your BetterDiscord themes folder.
 
 The theme file only holds the color settings. It imports the main styles from the original theme, so updates to upstream come through automatically.
 
